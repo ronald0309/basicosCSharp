@@ -19,13 +19,24 @@ namespace basicosCSharp
             bool boolFalso = false;
             Console.WriteLine("Variables boleanas:{0} y {1}", boolVerdadero, boolFalso);
 
-            double resultadoSuma = 540 + -18.5;
+            double resultadoSuma = 540 + -18.5; 
             float resultadoResta = 3458.35f - 334.34f;
             decimal resultadoMultiplicacion = 23.423m * 3423m;
             decimal resultadoDivision = 239.42m / 0.3m;
             decimal resultadoResiduo = 2321.423m % 23m;
             double resultadoPotencia = Math.Pow(78, 2);
             double resultadoRaiz = Math.Sqrt(144);
+            Console.WriteLine("Resultados: Potencia:{0}, Raiz:{1}, Recidio: {2}, Divicion:{3}, Multiplicacion:{4}, Resta: {5},Suma:{6}", resultadoPotencia, resultadoRaiz, resultadoResiduo, resultadoDivision, resultadoMultiplicacion, resultadoResta, resultadoSuma);
+
+            int primerNumero = 48;
+            int segundoNumero = 12;
+            primerNumero += segundoNumero;
+            primerNumero -= segundoNumero;
+            primerNumero *= segundoNumero;
+            primerNumero /= segundoNumero;
+            primerNumero %= segundoNumero;
+            primerNumero++;
+            primerNumero--;
 
         }
     }
