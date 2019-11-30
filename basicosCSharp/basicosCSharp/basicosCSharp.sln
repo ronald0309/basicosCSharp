@@ -1,0 +1,22 @@
+﻿using System;
+
+public class Calculadora
+{
+        private double ultimoResultado;
+        public double Sumar(double primerValor, double segundoValor)
+        {
+            double resultadoSuma = 540 + -18.5;
+        return resultadoSuma;
+        }   
+        public double Dividir(double primerValor, double segundoValor)
+        {
+            
+            float resultadoResta = 3458.35f - 334.34f;
+            return resultadoResta;
+        }
+    
+    public Calculadora()
+	{
+
+	}
+}

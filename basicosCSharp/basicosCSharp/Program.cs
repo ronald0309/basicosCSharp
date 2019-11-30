@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 
 namespace basicosCSharp
 {
@@ -30,10 +32,11 @@ namespace basicosCSharp
             bool boolFalso = false;
             Console.WriteLine("Variables boleanas:{0} y {1}", boolVerdadero, boolFalso);
 
-            double resultadoSuma = 540 + -18.5; 
+            Calculadora Cal = new Calculadora();
+            double resultadoSuma = Cal.Sumar( 540, -18.5); 
             float resultadoResta = 3458.35f - 334.34f;
             decimal resultadoMultiplicacion = 23.423m * 3423m;
-            decimal resultadoDivision = 239.42m / 0.3m;
+            decimal resultadoDivision = Cal.Dividir( 239.42m, 0.3m); 
             decimal resultadoResiduo = 2321.423m % 23m;
             double resultadoPotencia = Math.Pow(78, 2);
             double resultadoRaiz = Math.Sqrt(144);
@@ -106,4 +109,6 @@ namespace basicosCSharp
 
         }
     }
+
+    
 }
