@@ -37,7 +37,12 @@ namespace basicosCSharp
             primerNumero %= segundoNumero;
             primerNumero++;
             primerNumero--;
+            Console.WriteLine("Resultados:{0}", primerNumero);
 
+            bool comparacionY = true && true;
+            var comparacionO = true || false;
+            bool comparacionIgual = comparacionY == comparacionO;
+            bool valorNegado = !comparacionIgual;
         }
     }
 }
